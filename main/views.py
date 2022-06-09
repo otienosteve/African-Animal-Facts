@@ -8,6 +8,7 @@ from rest_framework.response import Response
 from rest_framework.renderers import JSONRenderer
 from rest_framework.decorators import api_view,renderer_classes
 from random import randint
+from django.views.decorators.csrf import csrf_exempt
 
 @api_view(['GET'])
 @renderer_classes([JSONRenderer])
@@ -28,6 +29,7 @@ def all(request):
 
     return Response(anm.data)
 
+@csrf_exempt
 @api_view(['POST'])
 def update(request):
     serialinst=AnimalSerializer(data=request.data)
