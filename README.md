@@ -9,4 +9,8 @@ This simple API will give you information about random african Animals that you 
 ## USAGE
 
 Make a get request to the following endpoint and be amazed
+The API return a JSON object in the following format
+- Animal- The animal Fact
+- Fact- Fact ABout The Animal
+- Source -The fact Source
 
