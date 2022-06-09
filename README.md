@@ -16,6 +16,10 @@ Make a GET request to the following endpoint and be amazed
 
 [https://africananimalfacts.herokuapp.com/](https://africananimalfacts.herokuapp.com/)
 
+To get all the facts at once use the following endpoint
+
+[https://africananimalfacts.herokuapp.com/all/](https://africananimalfacts.herokuapp.com/all/)
+
 The API return a JSON object in the following format
 - Animal- The Animal Name
 - Fact- Fact About The Animal
