@@ -5,10 +5,9 @@
 
 ## Description
 
-You think you know about african animals- Here are some interesting facts you maybe had not known about african animals.
+You think you know about african animals- Here are some interesting facts you maybe had not known about them.
 
 This less sophisticated API will give you information about random african Animals.
-
 
 
 ## USAGE
