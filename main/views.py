@@ -19,3 +19,13 @@ def home(request):
 
     return Response(anm.data)
 
+@api_view(['GET'])
+@renderer_classes([JSONRenderer])
+def all(request):
+    animals=Animal.objects.all()
+    
+    anm=AnimalSerializer(animals,many=True)
+
+    return Response(anm.data)
+
+
