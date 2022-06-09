@@ -29,8 +29,9 @@ def all(request):
 
     return Response(anm.data)
 
-@csrf_exempt
+
 @api_view(['POST'])
+@csrf_exempt
 def update(request):
     serialinst=AnimalSerializer(data=request.data)
     if serialinst.is_valid():
