@@ -7,7 +7,7 @@
 
 You think you know about african animals- Here are some interesting facts you maybe had not known about african animals.
 
-This simple API will give you information about random african Animals that you probably may not have known.
+This less sophisticated API will give you information about random african Animals.
 
 
 
