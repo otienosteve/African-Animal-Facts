@@ -1,0 +1,8 @@
+POST https://africananimalfacts.herokuapp.com/update/
+Content-Type: application/json
+
+{
+    "animal":"Birds",
+    "fact":"there are more birds in Kenya than anywhere else",
+    "source":"Just Testing"
+}

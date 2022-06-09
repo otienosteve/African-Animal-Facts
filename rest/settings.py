@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ly2u6i&1ue_abtzjgc0@gceu9c48^c7l__^h9m0mxzw^410pt&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['africananimalfacts.herokuapp.com','0.0.0.0']
+ALLOWED_HOSTS = ['127.0.0.1','africananimalfacts.herokuapp.com','0.0.0.0']
 
 
 # Application definition
@@ -79,27 +79,27 @@ REST_FRAMEWORK = {
 }
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-#LOCAL DB
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'rest',
-#         'HOST':'127.0.0.1',
-#         'USER':'steve',
-#         'PASSWORD':'davinci'
-#     }
-# }
-#remote DB
+# LOCAL DB
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dccg01qber2aj5',
-        'HOST':'ec2-44-196-223-128.compute-1.amazonaws.com',
-        'USER':'gxqxanxyhivzhc',
-        'PORT':'5432',
-        'PASSWORD':'11422ce197b8c28f9f4ab5a06ead561b5201c4f8032bc00edadc0bbe4eab3d47'
+        'NAME': 'rest',
+        'HOST':'127.0.0.1',
+        'USER':'steve',
+        'PASSWORD':'davinci'
     }
 }
+#remote DB
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'dccg01qber2aj5',
+#         'HOST':'ec2-44-196-223-128.compute-1.amazonaws.com',
+#         'USER':'gxqxanxyhivzhc',
+#         'PORT':'5432',
+#         'PASSWORD':'11422ce197b8c28f9f4ab5a06ead561b5201c4f8032bc00edadc0bbe4eab3d47'
+#     }
+# }
 #postgres://YourUserName:YourPassword@YourHostname:5432/YourDatabaseName
 #postgres://:
 

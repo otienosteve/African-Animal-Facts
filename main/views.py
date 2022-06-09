@@ -39,3 +39,8 @@ def update(request):
     return Response(serialinst.data)
 
 
+#Access Control- 
+# GET
+# GET ALL endpoint
+#POST->protect
+

@@ -1,0 +1,1 @@
+SELECT * FROM "main_animal" LIMIT 20;
