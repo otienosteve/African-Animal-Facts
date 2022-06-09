@@ -3,7 +3,6 @@ from . import views
 
 urlpatterns=[
 path('',views.home),
-path('all/',views.all)
-
-
+path('all/',views.all),
+path('update/',views.update)
 ]

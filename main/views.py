@@ -28,4 +28,11 @@ def all(request):
 
     return Response(anm.data)
 
+@api_view(['POST'])
+def update(request):
+    serialinst=AnimalSerializer(data=request.data)
+    if serialinst.is_valid():
+        serialinst.save()
+    return Response(serialinst.data)
+
 
