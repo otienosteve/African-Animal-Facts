@@ -1,4 +1,4 @@
 /env
-*.gitignore
-*.rest
-*.pgsql
+.gitignore
+.rest
+.pgsql
