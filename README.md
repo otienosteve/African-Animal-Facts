@@ -1,7 +1,12 @@
 # AFRICAN ANIMAL FACTS
 ![elephant.jpg](elephant.jpg)
 
+
 [Photo by Wolfgang Hasselmann on Unsplash](https://unsplash.com/photos/yaEkTCGc6vY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+## Api Documentation
+
+[<img src="SW-logo-clr.png">](https://app.swaggerhub.com/apis-docs/otienosteve/AfricanAnimalFacts/1.0.0#/)
 
 ## Description
 
