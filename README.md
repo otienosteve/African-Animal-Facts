@@ -34,18 +34,18 @@ Data is returned from the All Endpoint in the following format
 [...
 
 {
-- Animal- The Animal Name
-- Fact- Fact About The Animal
-- Source -The fact Source
+- Animal- The Animal Name 
+- Fact- Fact About The Animal 
+- Source -The fact Source 
   
  }
 
 {},{},{}
 
 {
-- Animal- The Animal Name
-- Fact- Fact About The Animal
-- Source -The fact Source
+- Animal- The Animal Name 
+- Fact- Fact About The Animal 
+- Source -The fact Source 
   
 }
 
@@ -56,7 +56,7 @@ You feel there's something am missing? There's where the fun starts. You can mak
 [https://africananimalfacts.herokuapp.com/update/](https://africananimalfacts.herokuapp.com/update/)
 
 When Making a POST request add data in the following format
-- Animal- The Animal Name
-- Fact- Fact About The Animal
-- Source -The fact Source
+- Animal- The Animal Name (string)
+- Fact- Fact About The Animal (string)
+- Source -The fact Source (string)
 
