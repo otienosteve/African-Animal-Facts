@@ -100,7 +100,7 @@ DATABASES = {
 #         'PASSWORD':'11422ce197b8c28f9f4ab5a06ead561b5201c4f8032bc00edadc0bbe4eab3d47'
 #     }
 # }
-#postgres://YourUserName:YourPassword@YourHostname:5432/YourDatabaseName
+# postgres://YourUserName:YourPassword@YourHostname:5432/YourDatabaseName
 #postgres://:
 
 # Password validation
