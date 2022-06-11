@@ -8,9 +8,10 @@
 
 [<img src="SW-logo-clr.png">](https://app.swaggerhub.com/apis-docs/otienosteve/AfricanAnimalFacts/1.0.0#/)
 
-## Description
+
 Inspired by [Daily Cat Facts](https://alexwohlbruck.github.io/cat-facts/)
 
+## Description
 
 You think you know about african animals- Here are some interesting facts you maybe had not known about them.
 
