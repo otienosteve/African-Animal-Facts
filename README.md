@@ -27,9 +27,9 @@ Data is returned from the random Endpoint in the following format
 ```
 
 { 
-"Animal" : "The Animal Name"
- "Fact" : "Fact About The Animal"
- "Source": "The fact Source" 
+"animal" : "the animal name"
+ "fact" : "fact about the animal"
+ "source" : "the fact source" 
 }
 ```
 To get all the facts at once use the following endpoint
@@ -41,18 +41,18 @@ Data is returned from the All Endpoint in the following format
 [...
 
 {
-"Animal": "The Animal Name" 
-"Fact": "Fact About The Animal" 
-"Source": "The fact Source" 
+"animal": "the animal name" 
+"fact": "fact about the animal" 
+"source": "the fact source" 
   
  }
 
 {},{},{}
 
 {
-"Animal": "The Animal Name" 
-"Fact": "Fact About The Animal" 
-"Source": "The fact Source" 
+"animal": "the animal Name" 
+"fact": "fact About The animal" 
+"source": "the fact Source" 
   
 }
 
@@ -65,9 +65,9 @@ You feel there's something am missing? There's where the fun starts. You can mak
 When Making a POST request add data in the following format
 ```
 { 
-"Animal" : "The Animal Name"
-"Fact" : "Fact About The Animal"
-"Source": "The fact Source" 
+"animal" : "the animal name"
+"fact" : "fact about the animal"
+"source" : "the fact source" 
 }
 ```
 
