@@ -50,9 +50,9 @@ Data is returned from the All Endpoint in the following format
 {},{},{}
 
 {
-"animal": "the animal Name" 
-"fact": "fact About The animal" 
-"source": "the fact Source" 
+"animal": "the animal name" 
+"fact": "fact about the animal" 
+"source": "the fact source" 
   
 }
 
