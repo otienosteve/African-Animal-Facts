@@ -7,14 +7,14 @@ from .models import Animal
 from rest_framework.response import Response
 from rest_framework.renderers import JSONRenderer
 from rest_framework.decorators import api_view,renderer_classes
-from random import randint
+from random import choice
 from django.views.decorators.csrf import csrf_exempt
 
 @api_view(['GET'])
 @renderer_classes([JSONRenderer])
 def home(request):
     animals=Animal.objects.all()
-    animal=animals[randint(0,len(animals)-1)]
+    animal=choice(animals)
 
     anm=AnimalSerializer(animal,many=False)
 
