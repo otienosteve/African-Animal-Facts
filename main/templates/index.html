@@ -11,7 +11,9 @@
 
 <body>
     <header class="top">
+        <h3 class="h1 head">African-Animal-Facts</h3>
         <div class="center">
+
             <a href="https://github.com/otienosteve/African-Animal-Facts">
                 <buttton class="btn-success btn"> View On Github</buttton>
             </a>
@@ -24,9 +26,52 @@
 
         </div>
     </header>
+    <main class="content">
+        <h3 class="h2">Available Endpoints</h3>
+        <p>Get Random Animal facts</p>
+        <a target="_blank" href="https://africananimalfacts.herokuapp.com/rand">Go to Endpoint</a>
+        <p>Get All Animal facts</p>
+        <a target="_blank" href="https://africananimalfacts.herokuapp.com/all/">Go to Endpoint</a>
+        <p>Supply your own Animal Fact</p>
+        <a target="_blank" href="https://africananimalfacts.herokuapp.com/update/">Go to Endpoint</a>
+
+    </main>
+    <footer>
+        <p>African-Animal-Facts is maintained by <a href="https://github.com/otienosteve/">Steve Otieno</a> Inspired by <a href="https://alexwohlbruck.github.io/cat-facts/">Daily Cat Facts</a></p>
+    </footer>
 </body>
 <style>
+    footer {
+        text-align: center;
+    }
+    
+    .content p {
+        color: #606c71;
+        font-size: 200%;
+    }
+    
+    .content {
+        margin: 2rem;
+        text-align: center;
+    }
+    
+    .content h3 {
+        font-size: 250%;
+        ;
+    }
+    
+    .head {
+        color: rgba(255, 255, 254, 0.834);
+        font-size: 200%;
+        font-weight: bold;
+        text-align: center;
+    }
+    
     .top {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         width: 100vw;
         height: 72vh;
         background: linear-gradient(105deg, #6f9915, #093a5f);
@@ -34,21 +79,16 @@
     
     .center {
         display: flex;
-        width: 100vw;
+        width: 100%;
         height: 20vh;
         justify-content: center;
         align-items: center;
+        justify-self: center;
     }
     
     .btn {
         margin: 2%;
         cursor: pointer;
-    }
-    
-    .top {
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 </style>
 
