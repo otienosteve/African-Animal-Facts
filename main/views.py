@@ -38,6 +38,8 @@ def update(request):
         serialinst.save()
     return Response(serialinst.data)
 
+def desc(request):
+    return render(request,'index.html')
 
 #Access Control- 
 # GET

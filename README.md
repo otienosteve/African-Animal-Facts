@@ -18,7 +18,7 @@ This less sophisticated API will give you information about random african Anima
 ## USAGE
 Make a GET request to the following endpoint and be amazed.
 
-[https://africananimalfacts.herokuapp.com/rand](https://africananimalfacts.herokuapp.com/)
+[https://africananimalfacts.herokuapp.com/rand](https://africananimalfacts.herokuapp.com/rand)
 
 Data is returned from the random Endpoint in the following format
 - Animal- The Animal Name
