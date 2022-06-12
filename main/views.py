@@ -13,7 +13,7 @@ from django.views.decorators.csrf import csrf_exempt
 @api_view(['GET'])
 @renderer_classes([JSONRenderer])
 def home(request):
-    animals=Animal.objects.all()
+    animals=Animal.objects.raw('SELECT * FROM main_animal order by random()')
     animal=choice(animals)
 
     anm=AnimalSerializer(animal,many=False)
@@ -40,6 +40,17 @@ def update(request):
 
 def desc(request):
     return render(request,'index.html')
+
+
+
+from django.db import connection
+from .models import Animal
+def results(request):
+    cursor = connection.cursor()
+    cursor.execute('''select *customer
+order by random()
+limit 5;''')
+
 
 #Access Control- 
 # GET
