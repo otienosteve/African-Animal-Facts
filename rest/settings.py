@@ -80,26 +80,26 @@ REST_FRAMEWORK = {
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 # LOCAL DB
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'rest',
-        'HOST':'127.0.0.1',
-        'USER':'steve',
-        'PASSWORD':'davinci'
-    }
-}
-#remote DB
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'dccg01qber2aj5',
-#         'HOST':'ec2-44-196-223-128.compute-1.amazonaws.com',
-#         'USER':'gxqxanxyhivzhc',
-#         'PORT':'5432',
-#         'PASSWORD':'11422ce197b8c28f9f4ab5a06ead561b5201c4f8032bc00edadc0bbe4eab3d47'
+#         'NAME': 'rest',
+#         'HOST':'127.0.0.1',
+#         'USER':'steve',
+#         'PASSWORD':'davinci'
 #     }
 # }
+#remote DB
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dccg01qber2aj5',
+        'HOST':'ec2-44-196-223-128.compute-1.amazonaws.com',
+        'USER':'gxqxanxyhivzhc',
+        'PORT':'5432',
+        'PASSWORD':'11422ce197b8c28f9f4ab5a06ead561b5201c4f8032bc00edadc0bbe4eab3d47'
+    }
+}
 # postgres://YourUserName:YourPassword@YourHostname:5432/YourDatabaseName
 #postgres://:
 
