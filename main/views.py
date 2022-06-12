@@ -14,7 +14,6 @@ from django.views.decorators.csrf import csrf_exempt
 @renderer_classes([JSONRenderer])
 def home(request):
     animals=Animal.objects.raw('SELECT * FROM main_animal order by random() LIMIT 7;')
-    print(list(animals))
     animal=choice(animals)
    
     anm=AnimalSerializer(animal,many=False)
