@@ -21,7 +21,7 @@ This less sophisticated API will give you information about random african Anima
 ## USAGE
 Make a GET request to the following endpoint and be amazed.
 
-[https://africananimalfacts.herokuapp.com/rand](https://africananimalfacts.herokuapp.com/rand)
+[https://african-animal-facts.onrender.com/rand](https://african-animal-facts.onrender.com/rand)
 
 Data is returned from the random Endpoint in the following format
 ```
@@ -34,7 +34,7 @@ Data is returned from the random Endpoint in the following format
 ```
 To get all the facts at once use the following endpoint
 
-[https://africananimalfacts.herokuapp.com/all/](https://africananimalfacts.herokuapp.com/all/)
+[https://african-animal-facts.onrender.com/all/](https://african-animal-facts.onrender.com/all/)
 
 Data is returned from the All Endpoint in the following format
 ```
@@ -60,7 +60,7 @@ Data is returned from the All Endpoint in the following format
 ```
 You feel there's something am missing? There's where the fun starts. You can make a POST request to the following enpoint to add data.
 
-[https://africananimalfacts.herokuapp.com/update/](https://africananimalfacts.herokuapp.com/update/)
+[https://african-animal-facts.onrender.com/update/](https://africananimalfacts.herokuapp.com/update/)
 
 When Making a POST request add data in the following format
 ```
